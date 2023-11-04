@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(234, 189, 245);
+    width: 100%;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(65, 7, 92);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: 24px;
+    color: rgb(146, 9, 139);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(245, 204, 238);
+}
+
+.Presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Presentacion h1{
+    font-size: 35px;
+    color: rgb(61, 4, 99);
+    
+}
+
+.Presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 20px;
+}
+
+.Poema {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Poema h1{
+    font-size: 35px;
+    color: rgb(61, 4, 99);
+    
+}
+
+.Poema h2{
+    font-size: 35px;
+    color: rgb(99, 4, 94);
+}
+
+.Poema p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+
+.Poema img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.dibujo p{
+    color: rgb(235, 129, 203);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: black;
+}
+
+.dibujo h5{
+    color: rgb(196, 135, 236);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    background-color: rgb(42, 2, 54)
+}
+
+.historia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.historia p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.historia h2{
+    font-size: 35px;
+    color: rgb(99, 4, 94);
+}
+
+.historia  img{
+    width: 400px;
+}
+
+button {
+    background-color: rgb(99, 15, 124);
+    color: rgb(185, 12, 185);
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(242, 143, 201);
+    height: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .btn-primary {
+    border: solid 1px hsl(288, 96%, 20%);
+    background-color: hsl(305, 97%, 30%);
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px hsl(298, 97%, 30%);
+    background-color: hsl(300, 96%, 20%);
+  }
